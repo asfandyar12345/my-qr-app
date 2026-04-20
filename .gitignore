@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+npm-debug.log
+
+# React Native
+# Build artifacts
+android/app/build/
+
+# Generated files
+*.jks
+*.keystore
+*/*.jks
+*/*.keystore
+
+# Logs
+logs/
+*.log
+
+# Yarn
+.yarnrc
+.yarn/
+
+# Metro bundler
+# React Native
+react-native-debug.log
+
+# Expo
+.expo/
