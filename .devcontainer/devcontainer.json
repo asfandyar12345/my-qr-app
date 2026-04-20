@@ -1,0 +1,15 @@
+{\n  "name": "My Expo App",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "extensions": [
+    "ms--vscode.vscode-typescript-tslint-plugin",
+    "vsmobile.vscode-react-native",
+    "eamodio.gitlens"
+  ],
+  "remoteUser": "node",
+  "settings": {\n    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "npm install -g expo-cli\n  expo init my-app --template blank",
+  "runArgs": ["--network=host"],
+  "forwardPorts": [19000, 19001, 19002]
+}
